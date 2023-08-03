@@ -13,7 +13,7 @@
 <br/>
 
 
-![Kumsu's GitHub stats](https://github-readme-stats.vercel.app/api?username=kumsu&show_icons=true&theme=highcontrast)  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kumsu&layout=compact&theme=synthwave)
+![imkumsu's GitHub stats](https://github-readme-stats.vercel.app/api?username=imkumsu&show_icons=true&theme=highcontrast)  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imkumsu&layout=compact&theme=synthwave)
 
 
 </div>
