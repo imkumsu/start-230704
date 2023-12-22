@@ -1,0 +1,30 @@
+#양팔저울을 3번 사용하여 10개의 공 중 무거운 공1개 찾기 
+ball_weight = [1,2,1,1,1,1,1,1,1,1]
+A = ball_weight[0:5]
+B = ball_weight[5:]
+
+#첫번째 시도
+if sum(A) > sum(B):
+    print("in A")
+elif sum(A) < sum(B):
+    print("in B")
+
+#두번째 시도 # in A (0:5)
+C = A[0:2]
+D = A[2:4]
+E = A[4]
+
+if sum(C) > sum(D):
+    print("in C")
+elif sum(C) < sum(D):
+    print("in D")
+else : # 같을때
+    print("무거운 공은 E, 5번 째 공")
+
+#세번째 시도 # in C (0:2)
+F = C[0]
+G = C[1]
+if F > G : 
+    print("1번째 공이 무거운 공입니다.")
+elif F < G :
+    print("2번째 공이 무겁습니다.")
