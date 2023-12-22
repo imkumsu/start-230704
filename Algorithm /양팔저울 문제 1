@@ -1,0 +1,45 @@
+#양팔저울을 3번 사용하여 10개의 공 중 무거운 공1개 찾기 
+'''
+a = 1
+b = 1
+c = 1
+d = 1
+e = 2
+f = 1
+g = 1
+h = 1
+i = 1
+j = 1
+'''
+
+ball = ['a','b','c','d','e','f','g','h','i','j']
+A = ball[0:5]
+B = ball[5:]
+# print (A)
+#first
+if A > B :
+    print("in A")
+
+else: # A < B
+    print("in B")
+
+#second
+    if "in A" : 
+        C = A[0:2]
+        D = A[2:4]
+        E = A[4]
+        if C == D :
+            print("가장 무거운 공은 E") # 2번만에 종료
+        elif C > D : 
+            print("in C")
+        else : # C < D 
+            print("in D")
+
+#third
+        if "in C" :
+            F = A[0]
+            G = A[1]
+            if F > G :
+                print("가장 무거운 공은 F ")
+            else : #G < F
+                print(" 가장 무거운 공은 G")
